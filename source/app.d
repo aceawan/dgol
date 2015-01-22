@@ -34,15 +34,16 @@ void main()
             	draw_table_window(window, table, square_size);
             }
             else if(event.type == event.EventType.KeyPressed){
-            	if(event.key.code == Keyboard.Key.Space){
-            		table = evaluate(table);
-            		draw_table_window(window, table, square_size);
-            	}
-            	else if(event.key.code == Keyboard.Key.BackSpace){
+            	if(event.key.code == Keyboard.Key.BackSpace){
             		table = init_array(table.length);
             		draw_table_window(window, table, square_size);
             	}
             }
+        }
+
+        if(Keyboard.isKeyPressed(Keyboard.Key.Space)){
+        	table = evaluate(table);
+        	draw_table_window(window, table, square_size);
         }
 
         window.display();
@@ -84,8 +85,19 @@ void draw_table_window(RenderWindow window, bool[][] table, int square_size)
 			if(table[i][j]){
 				auto square = new RectangleShape(Vector2f(square_size, square_size));
 				square.fillColor = Color.White;
-				square.position = Vector2f(i * square_size, j * square_size);
+				square.position = Vector2f(i * square_size - 2, j * square_size);
 
+				square.outlineThickness = 2;
+				square.outlineColor(Color.White);
+				window.draw(square);
+			}
+			else{
+				auto square = new RectangleShape(Vector2f(square_size, square_size));
+				square.fillColor = Color.Black;
+				square.position = Vector2f(i * square_size - 2, j * square_size);
+
+				square.outlineThickness = 2;
+				square.outlineColor(Color.White);
 				window.draw(square);
 			}
 		}
