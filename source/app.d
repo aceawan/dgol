@@ -16,7 +16,7 @@ void main()
 	int height = to!int(table.length)  * square_size;
 	int width = to!int(table[0].length) * square_size;
 
-	auto window = new RenderWindow(VideoMode(height, width), "D Game Of Life");
+	auto window = new RenderWindow(VideoMode(height, width), "D Game of Life", (Window.Style.Titlebar | Window.Style.Close), ContextSettings.Default);
 
 	draw_table_window(window, table, square_size);
 	while (window.isOpen())
