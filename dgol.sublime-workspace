@@ -1,0 +1,354 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"send",
+				"sender_port"
+			],
+			[
+				"se",
+				"sender_port"
+			],
+			[
+				"rec",
+				"receive"
+			],
+			[
+				"ma",
+				"main	void main() { … }"
+			],
+			[
+				"evalu",
+				"evaluated"
+			],
+			[
+				"in",
+				"init_array"
+			],
+			[
+				"ev",
+				"evaluated_array"
+			],
+			[
+				"uni",
+				"unit	unittest { … }"
+			],
+			[
+				"size",
+				"size_t"
+			],
+			[
+				"eval",
+				"evaluated"
+			],
+			[
+				"prin",
+				"print_table"
+			],
+			[
+				"wr",
+				"write"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
+				"writ",
+				"writeln"
+			],
+			[
+				"pr",
+				"print_table"
+			],
+			[
+				"m",
+				"multi_array"
+			],
+			[
+				"multi",
+				"multi_array"
+			],
+			[
+				"fe",
+				"fe	foreach(e; …) { … }"
+			],
+			[
+				"get",
+				"getLength"
+			],
+			[
+				"fo",
+				"for	for"
+			],
+			[
+				"Da",
+				"DatagramPacket"
+			],
+			[
+				"Dat",
+				"DatagramSocket"
+			],
+			[
+				"po",
+				"portclient"
+			],
+			[
+				"lis",
+				"listeFichier"
+			],
+			[
+				"li",
+				"lignes"
+			],
+			[
+				"re",
+				"readLine"
+			],
+			[
+				"Fil",
+				"FileReader"
+			],
+			[
+				"Bf",
+				"BufferedReader"
+			],
+			[
+				"char",
+				"chargerFichier"
+			],
+			[
+				"v",
+				"verifierFichier"
+			],
+			[
+				"lin",
+				"lineList"
+			],
+			[
+				"for",
+				"fore	for (each)"
+			],
+			[
+				"b",
+				"boolean"
+			],
+			[
+				"main",
+				"maina	int main(char[][] args) { … }"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"Mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Re",
+				"Remote Edit: Open Remote File Prompt"
+			],
+			[
+				"Remo",
+				"Remote Edit: Open Remote File Prompt"
+			],
+			[
+				"Rem",
+				"Remote Edit: Open Remote File Prompt"
+			],
+			[
+				"Remote",
+				"Remote Edit: Open Remote File Prompt"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/aceawan/code/receive_dsfml/source/app.d",
+		"/home/aceawan/code/receive_dsfml/dub.json",
+		"/home/aceawan/code/test-dsfml/source/app.d",
+		"/home/aceawan/code/dgol/source/app.d",
+		"/home/aceawan/code/main.d",
+		"/home/aceawan/.config/sublime-text-2/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/aceawan/code/testvibed/source/app.d",
+		"/home/aceawan/code/testvibed/views/index.dt",
+		"/home/aceawan/code/UdpClient.java",
+		"/home/aceawan/code/UdpServer.java",
+		"/home/aceawan/code/UpdServer.java",
+		"/home/aceawan/code/zeldiablo/src/zeldiablo/Carte.java",
+		"/home/aceawan/code/zeldiablo/src/zeldiablo/Case.java",
+		"/home/aceawan/code/derminal/source/main.d",
+		"/home/aceawan/code/zeldiablo/Rapports/Conception.v1",
+		"/home/aceawan/code/zeldiablo/Rapports/v1.xml",
+		"/home/aceawan/code/derminal/source/window.d",
+		"/home/aceawan/code/coo/figgeo/Carre.java",
+		"/home/aceawan/code/coo/figgeo/Fenetre.java",
+		"/home/aceawan/code/coo/figgeo/Losange.java",
+		"/home/aceawan/code/coo/figgeo/Cercle.java",
+		"/home/aceawan/code/zeldiablo/README.md",
+		"/home/aceawan/code/coo/figgeo/DessinFigures.java",
+		"/home/aceawan/code/coo/figgeo/FabricantFigures.java",
+		"/home/aceawan/code/coo/figgeo/MainLevee.java",
+		"/home/aceawan/code/coo/figgeo/FigureColoree.java",
+		"/home/aceawan/code/coo/figgeo/PanneauChoix.java",
+		"/home/aceawan/code/coo/figgeo/Point.java",
+		"/home/aceawan/code/coo/figgeo/Polygone.java",
+		"/home/aceawan/code/coo/figgeo/Quadrilatere.java",
+		"/home/aceawan/code/coo/figgeo/Trace.java",
+		"/home/aceawan/code/coo/figgeo/Traceur.java",
+		"/home/aceawan/code/coo/figgeo/Trait.java",
+		"/home/aceawan/code/coo/figgeo/Triangle.java",
+		"/home/aceawan/code/coo/figgeo/Rectangle.java",
+		"/home/aceawan/code/coo/figgeo/ManipulateurFormes.java",
+		"/home/aceawan/code/coo/figgeo/Ovale.java",
+		"/home/aceawan/.config/sublime-text-2/Packages/User/RemoteEdit.sublime-settings",
+		"/home/aceawan/Documents/lettre.md",
+		"/home/aceawan/code/unittesting.md",
+		"/home/aceawan/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"public"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
