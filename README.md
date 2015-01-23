@@ -4,10 +4,10 @@ Using DSFML for graphics
 
 ##How to use it
 
-"""
+```
 dub build --debug=0
 ./dgol <numberofcellsheight>
-"""
+```
 
 Click : change the state of the cell
 
