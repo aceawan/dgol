@@ -11,7 +11,7 @@ void main()
 	bool[][] table;
 	immutable int square_size = 20;
 
-	table = init_array(40);
+	table = init_array(52);
 
 	int height = to!int(table.length)  * square_size;
 	int width = to!int(table[0].length) * square_size;
