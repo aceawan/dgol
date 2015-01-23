@@ -149,10 +149,5 @@ void change_state(bool[][] table, int x, int y, in int square_size)
 	int i = x / square_size;
 	int j = y /square_size;
 
-	if(table[i][j]){
-		table[i][j] = false;
-	}
-	else{
-		table[i][j] = true;
-	}
+	table[i][j] = !table[i][j];
 }
