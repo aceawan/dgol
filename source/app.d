@@ -100,12 +100,8 @@ void print_table(bool[][] table)
 	writeln("table :");
 	foreach(line; table) {
 		foreach(cell; line) {
-			if(cell){
-				write("x ");
-			}
-			else{
-				write("o ");
-			}
+			if(cell) write("x ");
+			else write("o ");
 		}
 
 		writeln("");
