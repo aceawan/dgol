@@ -9,6 +9,7 @@ import dsfml.graphics;
 void main()
 {
 	bool[][] table;
+	bool[][][] history;
 	immutable int square_size = 20;
 
 	table = init_array(52);
@@ -19,6 +20,8 @@ void main()
 	auto window = new RenderWindow(VideoMode(height, width), "D Game of Life", (Window.Style.Titlebar | Window.Style.Close), ContextSettings.Default);
 
 	draw_table_window(window, table, square_size);
+	history ~= table;
+
 	while (window.isOpen())
     {
         Event event;
@@ -35,19 +38,42 @@ void main()
             }
             else if(event.type == event.EventType.KeyPressed){
             	if(event.key.code == Keyboard.Key.BackSpace){
+            		history = [];
             		table = init_array(table.length);
             		draw_table_window(window, table, square_size);
             	}
             	else if(event.key.code == Keyboard.Key.R){
+            		history = [];
             		table = random_array(table.length);
             		draw_table_window(window, table, square_size);
+            	}
+            	else if(event.key.code == Keyboard.Key.E){
+            		history ~= table;
+            		table = evaluate(table);
+            		draw_table_window(window, table, square_size);
+            	}
+            	else if(event.key.code == Keyboard.Key.D){
+            		if(history.length > 1){
+            			history = history[0..$-1];
+            			table = history[$-1];
+            			draw_table_window(window, table, square_size);
+            		}
             	}
             }
         }
 
         if(Keyboard.isKeyPressed(Keyboard.Key.Space)){
+        	history ~= table;
         	table = evaluate(table);
         	draw_table_window(window, table, square_size);
+        }
+
+        if(Keyboard.isKeyPressed(Keyboard.Key.Return)){
+        	if(history.length > 1){
+            	history = history[0..$-1];
+            	table = history[$-1];
+            	draw_table_window(window, table, square_size);
+            }
         }
 
         window.display();
