@@ -6,16 +6,26 @@ import std.conv;
 import dgol.gol;
 import dsfml.graphics;
 
-void main()
+void main(string[] args)
 {
 	bool[][] table;
 	bool[][][] history;
-	immutable int square_size = 20;
+	int square_size;
+	int number_of_cells;
 
-	table = init_array(52);
+	if(args.length < 2){
+		number_of_cells = 40;	
+	}
+	else{
+		number_of_cells = to!int(args[1]);
+	}
 
-	int height = to!int(table.length)  * square_size;
-	int width = to!int(table[0].length) * square_size;
+	int height = 1000;
+	int width = 1000;
+
+	table = init_array(number_of_cells);
+
+	square_size = height / number_of_cells;
 
 	auto window = new RenderWindow(VideoMode(height, width), "D Game of Life", (Window.Style.Titlebar | Window.Style.Close), ContextSettings.Default);
 
