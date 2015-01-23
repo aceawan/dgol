@@ -7,3 +7,5 @@ Click : change the state of the cell
 Space : One game of life evaluation
 
 Backspace : Set all the cell states to dead.
+
+r : Set all the cells to a random state

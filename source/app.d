@@ -38,6 +38,10 @@ void main()
             		table = init_array(table.length);
             		draw_table_window(window, table, square_size);
             	}
+            	else if(event.key.code == Keyboard.Key.R){
+            		table = random_array(table.length);
+            		draw_table_window(window, table, square_size);
+            	}
             }
         }
 

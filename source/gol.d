@@ -1,6 +1,7 @@
 module dgol.gol;
 
 import std.stdio;
+import std.random;
 
 /**
  * returns a 2Darray with size
@@ -64,6 +65,32 @@ bool[][] evaluate(bool[][] array)
 	}
 
 	return evaluated_array;
+}
+
+bool[][] random_array(size_t size)
+in
+{
+	assert(size > 0);
+}
+body
+{
+	bool[][] array = init_array(size);
+	int random_number;
+
+	for(int i = 0; i < array.length; i++){
+		for(int j = 0; j < array[i].length; j++){
+			random_number = uniform(0,2);
+
+			if(random_number == 0){
+				array[i][j] = false;
+			}
+			else{
+				array[i][j] = true;
+			}
+		}
+	}
+
+	return array;
 }
 
 /**
