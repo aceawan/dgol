@@ -1,8 +1,10 @@
-#D Game of Life
+D Game of Life
+==============
 
 Using DSFML for graphics
 
-##How to use it
+How to use it
+-------------
 
 ```
 dub build --debug=0
